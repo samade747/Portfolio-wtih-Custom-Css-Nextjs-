@@ -1,0 +1,174 @@
+/* src/styles/ResumeBuilder.module.css */
+
+/* Main container for the resume */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Profile section */
+  .profile-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .profile-container img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+  }
+  
+  /* Contact info section */
+  .contact-info {
+    margin-top: 20px;
+  }
+  
+  .contact-info h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info a {
+    text-decoration: none;
+    color: #00bcd4;
+  }
+  
+  /* Education section */
+  .education {
+    margin-top: 40px;
+  }
+  
+  .education h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .education ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .education li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Skills section */
+  .skills {
+    margin-top: 40px;
+  }
+  
+  .skills h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .skills ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .skills li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Work experience section */
+  .work-experience {
+    margin-top: 40px;
+  }
+  
+  .work-experience h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .work-experience h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  .work-experience span {
+    font-size: 1rem;
+    color: #757575;
+  }
+  
+  .work-experience ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .work-experience li {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* References section */
+  .references {
+    margin-top: 40px;
+  }
+  
+  .references h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .references p {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+  
+  /* General Layout Styles */
+  .header {
+    text-align: center;
+  }
+  
+  .header h1 {
+    font-size: 2.5rem;
+    color: #00bcd4;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .header h3 {
+    font-size: 1.25rem;
+    color: #757575;
+  }
+  
+  .section {
+    padding: 20px;
+    border-bottom: 2px solid #f0f0f0;
+  }
+  
+  .section:last-child {
+    border-bottom: none;
+  }
+  
+  /* Border and spacing for each section */
+  .section-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.875rem;
+    color: #757575;
+    margin-top: 40px;
+  }
+  
